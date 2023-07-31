@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #404040;
+}
+
+.logo {
+  width: 120px;
+  height: 33px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn_reload {
+  flex: 1;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn_logout {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .btns {
+    flex-direction: column;
+  }
+}

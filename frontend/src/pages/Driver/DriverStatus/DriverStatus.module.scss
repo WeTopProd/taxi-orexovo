@@ -1,0 +1,50 @@
+.status_text {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  background-color: #41dc63;
+  user-select: none;
+}
+
+.status_text_busy {
+  background-color: #ff3333;
+}
+
+.change_status_text {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.change_status_btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.change_status_btn {
+  font-size: 16px;
+  color: #222222;
+  padding: 20px;
+  background-color: #41dc63;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.change_status_btn_busy {
+  background-color: #ff3333;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.change_status_btn:disabled {
+  background-color: #404040;
+  cursor: auto;
+}

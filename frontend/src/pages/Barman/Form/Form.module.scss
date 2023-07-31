@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 300px;
+
+  input {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .input_price {
+    width: 50%;
+  }
+
+  .form__btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  .btn {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px;
+    background-color: #41dc63;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn_reset {
+    background-color: red;
+  }
+}

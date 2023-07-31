@@ -1,0 +1,9 @@
+.orders_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.orders_item:not(:last-child) {
+  border-bottom: 1px solid #404040;
+}

@@ -1,0 +1,37 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+.legend_item {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.legend_zone1 {
+  background-color: rgb(252, 228, 153);
+}
+
+.legend_zone2 {
+  background-color: rgb(153, 211, 142);
+}
+
+.legend_zone3 {
+  background-color: rgb(136, 178, 218);
+}
+
+.legend_zone4 {
+  background-color: rgb(248, 182, 230);
+}
+
+.legend_zone5 {
+  background-color: rgb(242, 159, 157);
+}

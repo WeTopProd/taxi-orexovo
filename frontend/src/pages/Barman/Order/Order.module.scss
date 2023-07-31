@@ -1,0 +1,42 @@
+.order {
+  display: grid;
+  grid-template-columns: 20px auto 70px 50px;
+  grid-auto-rows: auto;
+  align-items: center;
+  gap: 10px;
+  grid-row-gap: 10px;
+
+  p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .order_id {
+    text-align: center;
+  }
+
+  .client_info {
+    display: flex;
+  }
+
+  .order_address {
+    font-size: 8px;
+  }
+
+  .order_status {
+    text-align: center;
+  }
+
+  .btn_cancel {
+    font-size: 8px;
+    height: 80%;
+  }
+}
+
+.order_new {
+  background-color: #d58512;
+}
+
+.order_confirmed {
+  background-color: #41dc63;
+}

@@ -1,0 +1,97 @@
+.car {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 220px;
+  max-height: 150px;
+  padding: 5px;
+  background-color: slategray;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid slategray;
+  transition: border ease-in-out 0.2s;
+  align-items: center;
+
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+}
+
+.carPopup {
+  position: absolute;
+  min-width: 100px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #FFFFFF;
+
+  .carPopup_title {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+
+  .carPopup_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .carPopup_item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    z-index: 10;
+
+    &:hover {
+      background-color: #41dc63;
+    }
+  }
+
+  .carPopup_item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.image {
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 5px;
+}
+
+.number {
+  display: inline-block;
+  background-color: #ffffff;
+  margin: 0 0 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.text {
+  display: flex;
+  font-size: 14px;
+  line-height: 14px;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.status {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #ff3333;
+}
+
+.status_free {
+  background-color: #41dc63;
+}

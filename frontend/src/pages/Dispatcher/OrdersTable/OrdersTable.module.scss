@@ -1,0 +1,40 @@
+.orders_table {
+  max-width: 800px;
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.orders_table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.orders_table thead th {
+  font-weight: bold;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.orders_table thead th:last-child {
+  border-right: none;
+}
+
+.orders_table tbody td {
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.orders_table tbody td:last-child {
+  border-right: none;
+}
+
+.orders_status__new {
+  background-color: #41dc63;
+}

@@ -1,0 +1,58 @@
+.driver_popup {
+  margin: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  margin: 40px auto 20px;
+}
+
+.btn {
+  min-width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #41dc63;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_reject {
+  background-color: #ff3333;
+}
+
+.reject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  textarea {
+    width: 70%;
+    resize: vertical;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+  }
+
+  button {
+    width: 50%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.textarea {
+  width: 70%;
+  resize: vertical;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+}

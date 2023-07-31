@@ -1,0 +1,27 @@
+.container {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.link {
+  margin-left: 40px;
+  text-align: center;
+  text-decoration: none;
+
+  h4 {
+    width: 150px;
+    color: #ffffff;
+  }
+}

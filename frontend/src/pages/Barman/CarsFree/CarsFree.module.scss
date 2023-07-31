@@ -1,0 +1,31 @@
+.cars {
+  display: flex;
+  min-width: 280px;
+  color: #ffffff;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: auto;
+
+  .cars_label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #41dc63;
+    border-radius: 50%;
+  }
+  .cars_label__busy {
+    background-color: #ff3333;
+  }
+
+  .cars_count {
+    display: flex;
+    font-size: 20px;
+    line-height: 22px;
+    color: #41dc63;
+  }
+
+  .cars_count__busy {
+    color: #ff3333;
+  }
+}

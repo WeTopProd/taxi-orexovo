@@ -1,0 +1,62 @@
+.btn {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 30px 15px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.btn.active {
+  color: #222222;
+  background-color: #ffffff;
+}
+
+.add_car_popup {
+  position: absolute;
+  width: 670px;
+  padding: 40px;
+  background-color: #ffffff;
+  z-index: 300;
+  right: 10px;
+  top: 81px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+
+    input {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 15px 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      color: #ffffff;
+    }
+
+    .btn {
+      font-size: 18px;
+      line-height: 26px;
+      padding: 10px;
+      border: none;
+      background-color: #41dc63;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn_reset {
+      background-color: red;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  h2 {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 30px 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    input {
+      width: 220px;
+      padding: 10px 5px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      width: 100px;
+      margin: 0 auto;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #41dc63;
+    }
+  }
+}
